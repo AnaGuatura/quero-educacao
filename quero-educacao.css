@@ -552,6 +552,10 @@ span.highlights__item--legend {
     width: 32px;
 }
 
+.menu__itens__icon a{
+    display: none;
+}
+
 @media(max-width: 998px){
     .header__info__item {
         font-size: 13px;
@@ -582,6 +586,10 @@ span.highlights__item--legend {
         height: 20px;
         margin-right: 10px;
     }
+}
+
+.menu__itens__icon{
+    display: none;
 }
 
 @media(max-width: 768px){
@@ -635,4 +643,29 @@ span.highlights__item--legend {
     .last-footer__item {
         justify-content: center;
     }
-}
+
+    .menu__itens li:not(:first-child){
+        display: none;
+    }
+
+    .menu__itens__icon li{
+        float: right;
+        display: block;
+    }
+
+    .menu__itens.responsive {
+        position: relative;
+    }
+
+    .menu__itens.responsive .icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    
+    .menu__itens.responsive li {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
