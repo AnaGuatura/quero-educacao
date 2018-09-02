@@ -12,14 +12,14 @@
        <header>
             <section class="header">
                 <div class="header__info">
-                    <div class="header__info__item">
+                    <div class="header__item">
                         <a href="#"><span><i class="fas fa-info-circle"></i>Como funciona</span></a>
                     </div>
                     <span class="header__separator"></span>
-                    <div class="header__info__item">
+                    <div class="header__item">
                         <span><i class="fas fa-phone-volume"></i>0800 666 1010</span>
                     </div>
-                    <div class="header__info__mobile">
+                    <div class="header__mobile">
                         <i class="far fa-question-circle"></i>
                         <span><a href="#">Ajuda</a></span>
                     </div>
@@ -30,10 +30,10 @@
                     </a>
                 </div>
                 <div class="header__login">
-                    <div class="header__info__item">
+                    <div class="header__item">
                         <a href="#"><span>Entre ou crie sua conta<i class="far fa-user-circle"></i></span></a>
                     </div>
-                    <div class="header__info__mobile">
+                    <div class="header__mobile">
                         <i class="far fa-question-circle"></i>
                         <span><a href="#">Entrar</a></span>
                     </div>
@@ -41,13 +41,13 @@
             </section>
             <nav class="menu">
                 <ul class="menu__itens" id="nav-menu">
-                    <li class="menu__itens__title menu__itens__title--login"><a href="#">Minha conta</a></li>
-                    <li class="menu__itens__title"><a href="#">Pré-matrículas</a></li>
-                    <li class="menu__itens__title"><a href="#">Meus cursos</a></li>
-                    <li class="menu__itens__title"><a href="#">Atualizar meus dados</a></li>
-                    <li class="menu__itens__title"><a href="#">Contas e preferências</a></li>
-                    <li class="menu__itens__title menu__itens__title--active"><a href="#">Quero bolsa indica</a></li>
-                    <li class="menu__itens__title menu__itens__icon"><a href="javascript:void(0);" onclick="showMenu()">Menu <i class="fas fa-angle-down"></i></i></a></li>
+                    <li class="menu__title menu__title--login"><a href="#">Minha conta</a></li>
+                    <li class="menu__title"><a href="#">Pré-matrículas</a></li>
+                    <li class="menu__title"><a href="#">Meus cursos</a></li>
+                    <li class="menu__title"><a href="#">Atualizar meus dados</a></li>
+                    <li class="menu__title"><a href="#">Contas e preferências</a></li>
+                    <li class="menu__title menu__title--active"><a href="#">Quero bolsa indica</a></li>
+                    <li class="menu__title menu__icon"><a href="javascript:void(0);" onclick="showMenu()">Menu <i class="fas fa-angle-down"></i></i></a></li>
                 </ul>
 
             </nav>
@@ -58,80 +58,83 @@
                 <span>Acumule pontos e troque por mensalidades pagas</span>
             </header>
 
-            <section class="guide">
-                <div class="guide__indication">
-                    <div class="guide__item">
-                        <div class="guide__text">
+            <section class="container">
+                <div class="container__indication">
+                    <div class="container__item">
+                        <div class="container__text">
                             <h3>Passo a passo da Quero Bolsa Indica</h3>
                             <h4>Indique amigos, e a gente paga sua mensalidade!</h4>
                             <span>Aqui está a sua chance de ter mensalidades da sua faculdade pagas pelo programa de indicação do Quero Bolsa.</span>
                             <span>Indique amigos, acumule pontos e troque pelo pagamento das suas mensalidades!</span>
                         </div>
-                        <div class="guide__steps">
-                            <div class="guide__legend">
-                                <div class="guide__number number--first">
+                        <div class="container__steps">
+                            <div class="container__legend">
+                                <div class="container__number container__number--first">
                                     <span class="number__format">1</span>
                                 </div>
-                                <div class="guide__description">
+                                <div class="container__description">
                                     <span><strong>Cadastre-se</strong> no Quero Bolsa Indica.</span>
                                 </div>
                             </div>
-                            <div class="guide__legend">
-                                <div class="guide__number">
+                            <div class="container__legend">
+                                <div class="container__number">
                                     <span class="number__format">2</span>
                                 </div>
-                                <div class="guide__description">
+                                <div class="container__description">
                                     <span><strong>Envie seu link personalizado para os seus amigos</strong> que queiram cursar o Ensino Superior.</span>
                                 </div>
                             </div>
-                            <div class="guide__legend">
-                                <div class="guide__number">
+                            <div class="container__legend">
+                                <div class="container__number">
                                     <span class="number__format">3</span>
                                 </div>
-                                <div class="guide__description">
+                                <div class="container__description">
                                     <span><strong>Acompanhe a sua pontuação</strong> no Extrato de Indicações e <strong>troque</strong> pelo pagamento de mensalidades.</span>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="guide__item guide__item--box">
-                        <div class="guide__form">
-                            <div class="guide__text">
+                    <div class="container__item container__item--box">
+                        <div class="container__form">
+                            <div class="container__text">
                                 <h3>Participe, acumule pontos e ganhe!</h3>
                                 <span>Preencha os campos abaixo:</span>
                             </div>
-                            <div class="guide__input">
-                                <span class="guide__text--uppercase">Situação</span>
-                                <select class="guide__select">
-                                    <option value="volvo">Vou me matricular esse semestre</option>
+                            <div class="container__input">
+                                <span class="container__text container__text--uppercase">Situação</span>
+                                <select class="container__select">
+                                    <option value="matricula-1">Vou me matricular esse semestre</option>
+                                    <option value="matricula-2">Vou me matricular no próximo semestre</option>
                                 </select>
                             </div>
-                            <div class="guide__input">
-                                <span class="guide__text--uppercase">Instituição de ensino</span>
-                                <select div class="guide__select">
-                                    <option value="volvo">Escolha uma universidade</option>
+                            <div class="container__input">
+                                <span class="container__text container__text--uppercase">Instituição de ensino</span>
+                                <select div class="container__select">
+                                    <option value="universidade-0">Escolha uma universidade</option>
+                                    <option value="universidade-1">Universidade Federal de Itajubá</option>
                                 </select>
                             </div>
-                            <div class="guide__input--twocolumns">
-                                <div class="guide__input--first">
-                                    <span class="guide__text--uppercase">Curso</span>
-                                    <select class="guide__select">
-                                        <option value="volvo">Qual seu curso?</option>
+                            <div class="container__input--twocolumns">
+                                <div class="container__input--first">
+                                    <span class="container__text container__text--uppercase">Curso</span>
+                                    <select class="container__select">
+                                        <option value="curso-0">Qual seu curso?</option>
+                                        <option value="curso-1">Sistemas de Informação</option>
                                     </select>
                                 </div>
-                                <div class="guide__input--second">
-                                    <span class="guide__text--uppercase">Mensalidade</span>
-                                    <select class="guide__select">
-                                        <option value="volvo"></option>
+                                <div class="container__input--second">
+                                    <span class="container__text container__text--uppercase">Mensalidade</span>
+                                    <select class="container__select">
+                                        <option value="mensalidade-0"></option>
                                     </select>
                                 </div>
                             </div>
 
-                            <div class="guide__button button--success">
+                            <div class="container__button button--success">
                                 <button>Quero participar</button>
                             </div>
 
-                            <div class="guide__regulamentation">
+                            <div class="container__regulamentation">
                                 <span><a href="#">Leia o regulamento</a></span>
                             </div>
                         </div>
@@ -141,14 +144,14 @@
 
             <section>
                 <header class="share">
-                    <div class="guide__text">
+                    <div class="container__text">
                         <h3>Indique o Quero Bolsa para seus amigos</h3>
                         <p></p>
                     </div>
 
                     <div class="share__socialmedia">
                         <div class="share__item">
-                            <div class="guide__text">
+                            <div class="container__text">
                                 <h4>Envie para seus contatos do e-mail e compartilhe nas redes sociais</h4>
                             </div>
 
@@ -172,13 +175,13 @@
                         </div>
 
                         <div class="share__item">
-                            <div class="guide__text">
+                            <div class="container__text">
                                 <h4>Envie o link por e-mail ou copie e compartilhe</h4>
                             </div>
 
                             <div class="share__inputs">
                                 <div class="share__input">
-                                    <span class="guide__text">Digite o e-mail das pessoas que você quer enviar o convite</span>
+                                    <span class="container__text">Digite o e-mail das pessoas que você quer enviar o convite</span>
                                     <div class="share__submit">    
                                         <input name="search" type="text" class="" placeholder="Entre com os e-mails">
                                         <button name="submit" class="" type="submit">Enviar</button>
@@ -186,7 +189,7 @@
                                     <p>Utilize vírgula para separar os e-mails</p>
                                 </div>
                                 <div class="share__input">
-                                    <span class="guide__text">Clique para copiar o link, depois cole onde quiser</span>
+                                    <span class="container__text">Clique para copiar o link, depois cole onde quiser</span>
                                     <div class="share__submit">    
                                         <input name="search" type="text" class="" placeholder="https://que.bo/qibgkzczi7">
                                         <button name="submit" class="" type="submit">Copiar</button>
@@ -438,11 +441,11 @@
 
         <script>
             function showMenu() {
-                var x = document.getElementById("nav-menu");
-                if (x.className === "menu__itens") {
-                    x.className += " responsive";
+                var element = document.getElementById("nav-menu");
+                if (element.className === "menu__itens") {
+                    element.className += " responsive";
                 } else {
-                    x.className = "menu__itens";
+                    element.className = "menu__itens";
                 }
             }
         </script>
